@@ -1,0 +1,35 @@
+
+ .event-search-container{
+    display: none;
+    color: blue;
+}
+
+.button-adjust button{
+    padding: 0.8rem 1rem;
+}
+
+@media (max-width:600px){
+    .event-search-container{
+        display: none;
+        color: blue;
+    }
+    .button-adjust button{
+        padding: 0.8rem 1rem;
+    }
+    .page-container{
+        display: flex;
+        flex-direction: row;
+        /* text-align: center; */
+      }
+      .articles-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+      }
+      /* .container{
+        max-width: 600px;
+        overflow: hidden;
+    } */
+      /* .page-container>*:first-child{
+        grid-row: 1;
+      } */
+}
