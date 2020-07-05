@@ -1,0 +1,123 @@
+#navbar{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.navbar-logo{
+    height: inherit;
+}
+.list-menu ul{
+    display: flex;
+    flex-direction: column;
+}
+.event-search-container{
+    display: flex;
+    flex-direction: column;
+}
+.text-display1{
+    margin-bottom: 1rem;
+}
+.text-display1 input[type="text"], .text-display1 select {
+    width: 100%;
+}
+.page-container{
+    display: flex;
+    flex-direction: column;
+}
+.articles-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;  
+}
+.card-box{
+    padding-top: 2rem;
+}
+.img-adj {
+    width: 333px;
+    height: 150px;
+}
+.footer .footer-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-logos{
+    justify-content: center;
+}
+/* @media screen and (device-aspect-ratio: 1280/720){
+    .page-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .articles-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;  
+    }
+} */
+@media(max-width: 500px) {
+    #navbar{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .navbar-logo{
+        height: inherit;
+    }
+    #showcase .showcase-content {
+        text-align: center;
+    }
+    .list-menu ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .event-search-container{
+        display: flex;
+       flex-direction: column;
+    }
+    .text-display1{
+        margin-bottom: 1rem;
+    }
+    .text-display1 input[type="text"], .text-display1 select {
+        width: 100%;
+    }
+    .button-adjust button {
+        padding: 0.8rem 1rem;
+    }
+    .page-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .articles-container{
+        display: grid;
+        grid-template-columns: 1fr;  
+    }
+    .articles-container .card{
+        padding-left: 1rem;
+    }
+    .card-box{
+        width: 297px;
+        padding-top: 2rem;
+    }
+    .my-3{
+        margin: 0rem;
+    }
+    .img-adj {
+        width: 262px;
+        height: 150px;
+    }
+    .cal-adj {
+        height: 242px;
+        width: 221px;
+    }
+    .my-1 h2{
+        text-align: center;
+    }
+    .footer-logos{
+        justify-content: center;
+    }
+    #footer .footer-objects{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1rem;
+        text-align: center;
+    }
+}

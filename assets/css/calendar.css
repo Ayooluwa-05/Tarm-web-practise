@@ -1,0 +1,41 @@
+.cal-container {	
+	background-color: #d9d9d9;
+	display: flex;
+	flex-direction: column;
+	margin: 1rem 1rem;
+	/* height: 282px;
+    width: 318px; */
+	/* font-size: 1.2em; margin: 150px auto; max-width: 960px; */
+}
+.text-adj{
+	height: 260px;
+}
+.calendar {
+	list-style: none;
+	height: 210px;
+	/* padding: 0;
+	width: 280px; */
+	display: grid;
+	grid-template-columns: repeat(7, 1fr);
+}
+
+.calendar-day {
+	padding-top: 1rem;
+	/* float: left;
+	text-align: right;
+	width: 40px; */
+}
+
+/* Easiest RTL support, imagine with display: flex! */
+/* html[dir=rtl] .calendar-day {
+	float: right;
+	text-align: left;
+} */
+
+.calendar-day.-weekday {
+	font-weight: bold;
+}
+
+.calendar-day.-sibling-month {
+	color: #ccc;
+}

@@ -1,0 +1,242 @@
+
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+  }
+  html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+h1, h2{
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.text-center{
+    text-align: center;
+}
+ul li{
+    list-style: none;
+    margin-right: 1rem;
+}
+/* Navbar */
+#navbar{
+    background: #283055;
+    display:flex;
+    justify-content:space-evenly;
+    }
+    .navbar-logo{
+        z-index: 1;
+        height: 30px;
+    }
+.list-menu, .search-button{
+    margin: 1.5rem 0;
+}
+.search-button img{
+    height: 20px;
+    width: 20px;
+}
+.list-menu ul{
+    display: flex;
+}
+.list-menu ul li a{
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+}
+/* Showcase */
+.img-container{
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 2rem;
+    overflow: hidden;
+  }
+#showcase{
+   background:  linear-gradient(106.61deg, rgba(57, 77, 167, 0.5) 0.51%, 
+   rgba(57, 77, 167, 0.5) 100%), url(/assets/images/single-event-header.jpg) no-repeat center center/cover;
+  }
+  
+  #showcase .showcase-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+  }
+  #showcase .showcase-content{
+    z-index: 1;
+  }
+  .showcase-content h1{
+      font-weight: bold;
+      color: #ffffff;
+      font-size: 25px;
+  }
+  
+/* Events body */
+.my-1{
+    margin-bottom: 1rem;
+}
+.my-2{
+    margin: 1rem 0;
+}
+.my-3{
+    margin: 0 1.5rem;
+}
+.py-1{
+    padding-right: 1rem;
+} 
+.py-2{
+    padding-bottom: 2rem;
+}
+.py-4{
+    padding: 1rem 1rem;
+}
+.py-min{
+    padding-bottom: 0.2rem;
+}
+.event-content p{
+    font-weight: 500;
+    line-height: 22px;
+    padding-bottom: 1rem;
+    color: #000000;
+}
+.event-details-container{
+    background: #C4C4C4;
+}
+.event-details{
+    padding: 1rem;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+.event-contents{
+    display: flex;
+}
+.event-contents p{
+    color: #000000;
+    padding-left: 0.5rem;
+    font-size: 14px;
+}
+.image-adj{
+    width: 17px;
+    height: 17px;
+}
+.text-display{
+    display: flex;
+}
+.card{
+    padding: 1rem;
+}
+.card-box{
+    background: #F8F8F8;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+.my-1 h2{
+    background: #283055;
+    border-radius: 5px 5px 0px 0px;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.my-2 p{
+    color: #283055;
+    font-weight: bold;
+    font-size: 0.9rem;
+    border-bottom: 1px solid #E2DEE2;
+}
+.articles-container{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin: 1rem 2rem;
+  }
+  
+  .card-cal{
+      border-radius: 5px;
+  }
+  .cal-adj{
+    height: 320px;
+    width: 318px;
+  }
+  
+  .text-display p{
+      color: #979797;
+      font-size: 15px;
+      font-weight: 500px;
+  }
+
+/* Footer */
+#footer{
+    background: #283055;
+    color: #ffffff;
+}
+.footer-objects{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 1rem 1rem;
+}
+.obj{
+    margin-right: 1rem;
+}
+.input-field{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.input-field input[type="email"]{
+    padding: 0.5rem;
+    border-radius: 10px;
+    margin: 0.3rem;
+    width: 80%;
+    border: none;
+}
+.input-field input::placeholder{
+    font-size: 14px;
+    padding: 1rem 1rem;
+    color: rgba(61, 70, 109, 0.76);
+}
+.input-field input[type="submit"]{
+    padding: 0.5rem;
+    color: #ffffff; 
+    width: 60%;
+    background:rgba(250, 49, 193, 0.74);
+    border-radius: 10px;
+    border: none;
+}
+#footer .footer-objects{
+    padding: 1rem 2rem;
+}
+.obj h2, .obj p{
+    margin-top: 1rem;
+    font-size: 15px;
+}
+.footer{
+    background: rgba(0, 0, 0, 0.25);
+    color: #ffffff;
+    font-size: 15px;
+}
+.footer .footer-content{
+    display: flex;
+   padding: 0.5rem 0;
+    justify-content: space-evenly;
+}
+.footer-note p{
+    margin: 1rem 0;
+}
+.footer-logos{
+    display: flex;
+}
+.footer-logos img{
+    height: 20px;
+    width: 20px;
+    margin: 1rem 0.5rem;
+}

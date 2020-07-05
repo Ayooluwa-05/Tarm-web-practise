@@ -1,0 +1,81 @@
+#navbar{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.navbar-logo{
+    height: inherit;
+}
+.list-menu ul{
+    display: flex;
+    flex-direction: column;
+}
+.articles-container{
+    display: grid;
+    grid-template-columns: 1fr;  
+}
+.footer .footer-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-logos{
+    justify-content: center;
+}
+@media(max-width: 500px) {
+    #navbar{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .navbar-logo{
+        height: inherit;
+    }
+    #showcase .showcase-content {
+        text-align: center;
+    }
+    .list-menu ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .articles-container{
+        display: grid;
+        grid-template-columns: 1fr;  
+    }
+    .event-details{
+        display: flex;
+        flex-direction: column;
+    }
+    .event-contents{
+        padding-bottom: 1rem;
+    }
+    .cal-adj {
+        height: 242px;
+        width: 221px;
+    }
+    .my-3{
+        margin:0rem;
+    }
+    .card{
+        padding: 0rem;
+    }
+    .cal-container{
+        margin: 1rem 0rem;
+    }
+    .calendar{
+        padding-bottom: 1rem;
+    }
+    
+    .my-1 h2{
+        text-align: center;
+    }
+    .footer-logos{
+        justify-content: center;
+    }
+    #footer .footer-objects{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1rem;
+        text-align: center;
+    }
+}
