@@ -1,0 +1,158 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.pri-color{
+    background-color: #283055;
+}
+a{
+    font-size: 15px;
+}
+#showcase{
+    background: linear-gradient(106.61deg, rgba(57, 77, 167, 0.54) 0.51%, rgba(57, 77, 167, 0.54) 100%), url('/assets/images/Rectangle\ 3.png')no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 640px;
+    color: #ffffff;
+}
+#map_section{
+    background: url('../images/west-africa-map-image_csp14716478.jpg')no-repeat center center/cover;
+
+}
+#pray{
+    background-color:#283055 ;
+    color: #ffffff;
+}
+textarea{
+    resize: none;
+}
+.img{
+    z-index: 1;
+    height: 20px;
+}
+.round_icon{
+    border: 4px solid #283055;
+    border-radius: 50%;
+    color: #394DA7;
+}
+.ml-6{
+    margin-left: 3rem;
+}
+.ml-8{
+    margin-left: 5rem;
+}
+.ml-9{
+    margin-left: 7rem;
+}
+.ml-7{
+    margin-left: 4rem;
+}
+.mr-6{
+    margin-right: 7rem;
+}
+.mt-mid{
+    margin-top: 2rem;
+}
+.pl-7{
+    padding-left: 8rem;
+}
+.pr-9{
+    padding-right: 11.5rem;
+}
+
+.bold{
+    font-weight: bolder;
+}
+
+
+form input:focus, form textarea:focus{
+    outline:none ;
+}
+.show a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.active{
+    position: relative;
+    background: #394DA7;
+    border: 1px solid #394DA7;
+    border-width: 15px; 
+    box-sizing: border-box;
+    
+}
+.active:after{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-top: 0px solid #394DA7;
+    border-bottom: 2px solid #394DA7;
+    border-right: 2px solid #394DA7;
+    border-left: 0px solid #394DA7;
+    top: 100%;
+    left: 50%;
+    margin-left: 9px;
+    margin-top: 9px;
+    content: '';
+    transform: rotate(45deg);
+    background: #394DA7;
+
+}
+#test_content{
+    display: none;
+}
+.font{
+    font-weight: bolder;
+    font-size: 20px;
+}
+.weight{
+    font-weight: bolder;
+}
+.fir{
+    background: #FA31C1; 
+    height:10px; 
+    width: 50px;
+}
+.sec{
+    background-color: #394DA7;
+    height:10px; 
+    width: 50px;
+}
+.submit_box{
+    width: 100%;
+    border-radius: 10px
+}
+.my-1{
+    background: #fff;
+    border-radius: 10px;
+}
+.testimony_layout{
+    background:#C4C4C4 ;
+    border-radius: 5px;
+}
+.bottom_link{
+    color: #fff; 
+    text-decoration: none; 
+    font-size: 18px;
+}
+.subscribe_link{
+    background: #fa31c1bd;
+    border-radius: 10px; 
+    width: 150px;
+}
+.text_deco a{
+    text-decoration: none;
+}
+.subscribe_deco a{
+    text-decoration: none;
+}
+/* .copyright{
+    display: flex;
+    justify-content: space-around;
+} */
+
